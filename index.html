@@ -3,11 +3,99 @@
 
 <head>
   <title>W4-product_gallery</title>
+  <!-- <link rel="stylesheet" href="./CSS/test.css"> -->
 </head>
+
+<style>
+  .container {
+    display: grid;
+    margin: 0 auto;    
+    width: 960px;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(20, 100px);
+    font-family: "微軟正黑體";
+  }
+
+  .nav {
+    margin: auto;
+    height: 24px;
+    width: 113px;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+  }
+
+  #title {
+    margin: auto;
+    height: 85px;
+    width: 419px;
+    font-size: 72px;
+    text-align: center;
+    color: #000000;
+  }
+
+  .item1 {
+    grid-area: 1 / 1 / 1 / -1;
+  }
+
+  .item2 {
+    grid-area: 3 / 1 / span 4 / span 4;
+  }
+
+  .item3 {
+    grid-area: 4 / 6 / 6 / 8;
+  }
+
+  .item4 {
+    grid-area: 9 / 1 / span 2 / span 4;
+  }
+
+  .item5 {
+    grid-area: 9 / 7 / 13 / 9;
+  }
+
+  .item6 {
+    grid-area: 13 / 3 / span 2 / span 2;
+  }
+
+  .item7 {
+    grid-area: 15 / 5 / 19 / 9;
+  }
+
+  .item8 {
+    grid-area: -5 / 1 / span 4 / span  2;
+  }
+
+</style>
 
 <body>
   <div class="container">
-    
+    <div class="item item1">
+      <nav class="nav">PPPICTURE</nav>
+      <h1 id="title">MEN'S TOP</h1>
+    </div>
+    <div class="item item2">
+      <img src="https://www.blackorchidresort.com/wp-content/uploads/2017/11/belize-honeymoon-480x400.jpg">
+    </div>
+    <div class="item item3">
+      <img src="http://www.taghobby.com/wp-content/uploads/2017/09/news_header_kiminonaha_201709_01-240x200.jpg">
+    </div>
+    <div class="item item4">
+      <img src="http://www.sakura-house.com/blog/cn/files/2015/10/da-10-480x200.jpg">
+    </div>
+    <div class="item item5">
+      <img src="http://desktop.kole8.com/handset_desktop/desk_file-11/4/33/2012/7/20127129421917.jpg">
+    </div>
+    <div class="item item6">
+        <img src="http://www.taghobby.com/wp-content/uploads/2018/03/e6-3-240x200.jpg">
+    </div>
+    <div class="item item7">
+        <img src="http://p0.ifengimg.com/pmop/2017/1215/51C83FF69CCCFA750E2B0FF899BB2AF047FCA113_size23_w480_h400.jpeg">
+    </div>
+    <div class="item item8">
+        <img src="http://www.taghobby.com/wp-content/uploads/2018/03/e6-3-240x200.jpg">
+    </div>
+
   </div>
 </body>
 
