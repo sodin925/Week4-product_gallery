@@ -1,0 +1,25 @@
+{
+  "name": "week4-product_gallery",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sodin925/Week4-product_gallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sodin925/Week4-product_gallery/issues"
+  },
+  "homepage": "https://github.com/sodin925/Week4-product_gallery#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.5.0",
+    "gulp-sass": "^4.0.1"
+  }
+}
