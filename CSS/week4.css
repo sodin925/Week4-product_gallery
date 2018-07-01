@@ -5,7 +5,8 @@
   width: 960px;
   grid-template-columns: repeat(8, 1fr);
   grid-template-rows: repeat(20, 100px);
-  font-family: "微軟正黑體"; }
+  font-family: "微軟正黑體";
+  font-weight: bold; }
 
 .nav {
   margin: auto;
@@ -16,9 +17,8 @@
   color: #000000; }
 
 #title {
-  margin: auto;
+  margin: 0 auto;
   height: 85px;
-  width: 419px;
   font-size: 72px;
   text-align: center;
   color: #000000; }
@@ -31,6 +31,14 @@
   grid-area: 3 / 1 / span 4 / span 4; }
   .item2 #d1 {
     position: absolute;
+    width: 240px;
+    height: 100px;
+    left: 12.5%;
+    bottom: -60px;
+    background: linear-gradient(135deg, #50e3c2 6.25%, transparent 6.25%, transparent 18.75%, #50e3c2 18.75%, #50e3c2 31.25%, transparent 31.25%, transparent 43.75%, #50e3c2 43.75%, #50e3c2 56.25%, transparent 56.25%, transparent 68.75%, #50e3c2 68.75%, #50e3c2 81.25%, transparent 81.25%, transparent 93.75%, #50e3c2 93.75%, #50e3c2 100%);
+    background-size: 100px 100px; }
+  .item2 #d1_2 {
+    position: absolute;
     width: 200px;
     height: 160px;
     margin: 0 auto;
@@ -38,6 +46,14 @@
     bottom: 62.5%;
     border: 20px solid #50E3C2;
     z-index: -10; }
+  .item2 .num {
+    position: absolute;
+    left: 0px;
+    bottom: -50px;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #000000;
+    text-align: center; }
 
 .item3 {
   grid-area: 4 / 6 / 6 / 8;
@@ -60,6 +76,14 @@
     bottom: 50%;
     border: 20px solid #50E3C2;
     z-index: -20; }
+  .item3 .num {
+    position: absolute;
+    left: 310px;
+    bottom: 250px;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #000000;
+    text-align: center; }
 
 .item4 {
   position: relative;
@@ -82,10 +106,26 @@
     bottom: -25%;
     border: 20px solid #50E3C2;
     z-index: -10; }
+  .item4 .num {
+    position: absolute;
+    left: 490px;
+    bottom: -50px;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #000000;
+    text-align: center; }
 
 .item5 {
   position: relative;
   grid-area: 9 / 7 / 13 / 9; }
+  .item5 #d4 {
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    left: 0%;
+    bottom: -60px;
+    background: linear-gradient(135deg, #50e3c2 6.25%, transparent 6.25%, transparent 18.75%, #50e3c2 18.75%, #50e3c2 31.25%, transparent 31.25%, transparent 43.75%, #50e3c2 43.75%, #50e3c2 56.25%, transparent 56.25%, transparent 68.75%, #50e3c2 68.75%, #50e3c2 81.25%, transparent 81.25%, transparent 93.75%, #50e3c2 93.75%, #50e3c2 100%);
+    background-size: 100px 100px; }
   .item5 #d4_2 {
     position: absolute;
     width: 200px;
@@ -95,10 +135,26 @@
     bottom: 75%;
     border: 20px solid #50E3C2;
     z-index: -10; }
+  .item5 .num {
+    position: absolute;
+    left: -50px;
+    bottom: 0px;
+    margin: 0 auto;
+    font-size: 48px;
+    color: #000000;
+    text-align: center; }
 
 .item6 {
   position: relative;
   grid-area: 13 / 3 / span 2 / span 2; }
+  .item6 #d5 {
+    position: absolute;
+    width: 240px;
+    height: 100px;
+    left: -75%;
+    bottom: 135px;
+    background: linear-gradient(135deg, #50e3c2 6.25%, transparent 6.25%, transparent 18.75%, #50e3c2 18.75%, #50e3c2 31.25%, transparent 31.25%, transparent 43.75%, #50e3c2 43.75%, #50e3c2 56.25%, transparent 56.25%, transparent 68.75%, #50e3c2 68.75%, #50e3c2 81.25%, transparent 81.25%, transparent 93.75%, #50e3c2 93.75%, #50e3c2 100%);
+    background-size: 100px 100px; }
   .item6 #d5_2 {
     position: absolute;
     width: 200px;
@@ -114,7 +170,6 @@
     bottom: 25px;
     margin: 0 auto;
     font-size: 48px;
-    font-family: Roboto-Black;
     color: #000000;
     text-align: center; }
 
@@ -145,7 +200,6 @@
     bottom: 200px;
     margin: 0 auto;
     font-size: 48px;
-    font-family: Roboto-Black;
     color: #000000;
     text-align: center; }
 
@@ -176,6 +230,5 @@
     bottom: 0px;
     margin: 0 auto;
     font-size: 48px;
-    font-family: Roboto-Black;
     color: #000000;
     text-align: center; }
