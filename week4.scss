@@ -33,7 +33,12 @@
   position: relative;
   grid-area: 3 / 1 / span 4 / span 4;
   .title {
-    
+    top: -25px;
+    left: 0px;
+    position: absolute;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
   }
   #d1 {
     position: absolute;
@@ -68,6 +73,23 @@
 .item3 {
   grid-area: 4 / 6 / 6 / 8;
   position: relative;
+  .title {
+    bottom: -70px;
+    right: -85px;
+    position: absolute;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+  }
+  .title2 {
+    top: -30px;
+    left: -10px;
+    font-style: italic;
+    position: absolute;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+  }
   #d2 {
     position: absolute;
     width: 100%;
@@ -102,6 +124,14 @@
 .item4 {
   position: relative;
   grid-area: 9 / 1 / span 2 / span 4;
+  .title {
+    top: 0px;
+    right: 0px;
+    position: absolute;
+    font-size: 48px;
+    color: #000000;
+    text-align: center;
+  }
   #d3 {
     position: absolute;
     width: 240px;
@@ -265,4 +295,5 @@
   color: #000000;
   text-align: center;
   } 
+
 }
